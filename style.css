@@ -1,0 +1,59 @@
+body{
+	background-color: #eeeeee;
+	font-family: 'Roboto', sans-serif;
+	
+}
+section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+img{
+	height: 150px;
+    width: 150px;
+}
+section > .main{
+	width: 10%;
+	min-width: 150px;
+	background-color: white;
+    padding: 15px 15px 0 15px;
+    margin: 10px 8px;
+    border-radius: 5px;
+
+}
+i{
+	color: grey;
+	font-size: 12px;
+}
+span{
+	margin-left: 35px;
+	color: green;
+}
+.para1{
+	margin-bottom: 0;
+	font-size: 18px;
+}
+.para1 > a{
+	text-decoration: none;
+	color: black;
+}
+.para2{
+	margin-top: 0;
+}
+.para2 > a{
+	color: grey;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+h1{
+	margin-left: 8%;
+	margin-top: 80px;
+	font-weight: normal;
+	color: grey;
+}
+.icon{
+	margin-bottom: 0;
+}
